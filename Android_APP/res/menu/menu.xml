@@ -1,0 +1,20 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lightblu="http://schemas.android.com/apk/res-auto">
+    <item
+	android:title="@string/menu_refresh"
+	lightblu:showAsAction="ifRoom"
+	android:orderInCategory="1"
+	android:checkable="false"
+	android:id="@+id/menu_refresh"/>
+    <item 
+	android:title="@string/menu_scan"
+	lightblu:showAsAction="ifRoom|withText"
+	android:orderInCategory="100"
+	android:id="@+id/menu_scan"/>
+    <item 
+	android:title="@string/menu_stop"
+	lightblu:showAsAction="ifRoom|withText" 
+	android:orderInCategory="101" 
+	android:id="@+id/menu_stop"/>
+</menu>

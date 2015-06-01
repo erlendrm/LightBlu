@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lightblu="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Refresh"
+        android:id="@+id/menu_refresh"
+        android:checkable="false"
+        android:orderInCategory="1"
+        lightblu:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_connect"
+        android:title="@string/menu_connect"
+        android:orderInCategory="100"
+        lightblu:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_disconnect"
+        android:title="@string/menu_disconnect"
+        android:orderInCategory="101"
+        lightblu:showAsAction="ifRoom|withText"/>
+</menu>

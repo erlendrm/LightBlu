@@ -1,0 +1,1 @@
+For best visuelt resultat; legg til fonter fra mappen "Fonts" før du åpner selve presentasjonen.
